@@ -1,0 +1,25 @@
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar_ziel{
+	height: 60px;
+}
+.navbar-brand img {
+	margin-left: 150px;
+}
+
+.navbar-nav >li > a {
+	color: black;
+	text-shadow: none;
+	text-transform: uppercase;
+}
+.navbar-nav >li > a:hover {
+	background-color: initial; 
+	color: hsla(0,0%,100%,.5);
+}
+.navbar-right{
+	margin-right: 150px;
+}
+.icon-bar{
+	background-color: white; 
+}
