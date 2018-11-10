@@ -1,3 +1,181 @@
+@media only screen and (max-width: 600px){
+
+body{
+	font-family: "raleway", serif;
+}
+
+/*Barra de navegación*/
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar_ziel{
+	height: 60px;
+}
+.navbar-brand img {
+	margin-left: 10px;
+}
+
+.navbar-nav >li > a {
+	color: black;
+	text-shadow: none;
+	text-transform: uppercase;
+}
+.navbar-nav >li > a:hover {
+	background-color: initial; 
+	color: hsla(0,0%,100%,.5);
+}
+.navbar-right{
+	margin-right: 150px;
+}
+.icon-bar{
+	background-color: black; 
+}
+
+/*Fin de la barra de navegación*/
+
+/*Encabezado*/
+.header_ziel{
+	position: relative;
+	text-align: center;
+}
+.header_inner{
+	position: absolute;
+	top:40%;
+	left: 26%;
+	color: #fff;
+	display: none;
+}
+.header_inner h1{
+	font-size: 2em;
+}
+.header_inner h2{
+	font-size: 1em;
+}
+.video_header{
+	filter: grayscale(100%);
+} 
+
+.fondocss {
+	position: fixed;
+	top:0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 0
+	}
+
+/*Fin encabezado*/
+
+/* Sección de servicios*/
+.barra_servicios{
+	width: 100%;
+	background-color: #224555;
+	text-align: center;
+	color: white;
+	height: 100px;
+	font-size: 3em;
+	padding-top: 20px;
+}
+.icon_servicios{
+	width: 30%;
+	height: 50%;
+	margin-top: 30px;
+}
+
+.servicios_cuadro{
+	padding: 30px;
+}
+/*Fin de la sección de servicios*/
+
+/*Sección valor agregado*/
+.valor {
+	background-color: #25637F;
+	padding: 40px;
+	color: white;
+}
+.valor_cuadro1{
+
+}
+.valor_cuadro2{
+	
+}
+.valor_cuadro3{
+	
+}
+
+/*Fin sección valor agregado*/
+.nosotros_cuadro{
+	padding: 30px;
+}
+
+.felipe{
+	width: 60%;
+	height: 100%;
+}
+
+.hugo{
+	width: 60%;
+	height: 100%;
+}
+.carta{
+	font-size: 40px;
+}
+
+.felipe:hover{
+	height: 300px;
+} 
+/*Redes sociales*/
+.sociales{
+	background-color: #224555;
+	height: 200px;
+	padding: 80px;
+	text-align: center;
+}
+.fa-facebook-square{
+	font-size: 40px;
+	color: white;
+}
+.fa-youtube-square {
+	font-size: 40px;
+	color: white;
+}
+.fa-instagram {
+	font-size: 40px;
+	color: white;
+}
+.fa-twitter-square {
+	font-size: 40px;
+	color: white;
+}
+.fa-linkedin {
+	font-size: 40px;
+	color: white;
+}
+.sociales_circle{
+	margin: 10px;
+}
+
+.fab:hover{
+	font-size: 60px;
+}
+/*Fin de la sección de redes sociales*/
+
+/* Pie de página*/
+.pie{
+	background-color: gray;
+}
+/*Fin del pie de página*/
+
+}
+
+@media (min-width: 600px) {
+
+
+body{
+	font-family: "raleway", serif;
+}
+
+/*Barra de navegación*/
 .navbar{
 	margin-bottom: 0px;
 }
@@ -21,5 +199,142 @@
 	margin-right: 150px;
 }
 .icon-bar{
-	background-color: white; 
+	background-color: black; 
+}
+
+/*Fin de la barra de navegación*/
+
+/*Encabezado*/
+.header_ziel{
+	position: relative;
+	text-align: center;
+}
+.header_inner{
+	position: absolute;
+	top:40%;
+	left: 26%;
+	color: #fff;
+}
+.header_inner h1{
+	font-size: 5em;
+}
+.header_inner h2{
+	font-size: 2.5em;
+}
+.video_header{
+	filter: grayscale(100%);
+} 
+
+.fondocss {
+	position: fixed;
+	top:0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 0
+	}
+
+/*Fin encabezado*/
+
+/* Sección de servicios*/
+.barra_servicios{
+	width: 100%;
+	background-color: #224555;
+	text-align: center;
+	color: white;
+	height: 100px;
+	font-size: 5em;
+}
+.icon_servicios{
+	width: 30%;
+	height: 50%;
+	margin-top: 30px;
+}
+
+.servicios_cuadro{
+	padding: 30px;
+}
+/*Fin de la sección de servicios*/
+
+/*Sección valor agregado*/
+.valor {
+	background-color: #25637F;
+	padding: 40px;
+	color: white;
+}
+.valor_cuadro1{
+
+}
+.valor_cuadro2{
+	
+}
+.valor_cuadro3{
+	
+}
+
+/*Fin sección valor agregado*/
+.nosotros_cuadro{
+	padding: 30px;
+}
+
+.felipe{
+	width: 60%;
+	height: 100%;
+}
+
+.hugo{
+	width: 60%;
+	height: 100%;
+}
+.carta{
+	font-size: 40px;
+}
+
+.felipe:hover{
+	height: 300px;
+} 
+/*Redes sociales*/
+.sociales{
+	background-color: #224555;
+	height: 300px;
+	padding: 80px;
+	text-align: center;
+}
+.fa-facebook-square{
+	font-size: 100px;
+	color: white;
+}
+.fa-youtube-square {
+	font-size: 100px;
+	color: white;
+}
+.fa-instagram {
+	font-size: 100px;
+	color: white;
+}
+.fa-twitter-square {
+	font-size: 100px;
+	color: white;
+}
+.fa-linkedin {
+	font-size: 100px;
+	color: white;
+}
+.sociales_circle{
+	margin: 20px;
+}
+
+.fab:hover{
+	font-size: 150px;
+}
+/*Fin de la sección de redes sociales*/
+
+/* Pie de página*/
+.pie{
+	background-color: gray;
+}
+/*Fin del pie de página*/
+
+}
+
 }
